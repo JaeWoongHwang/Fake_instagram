@@ -1,0 +1,8 @@
+<h2>User list page</h2>
+<a href="/users/sign_up">Go home</a>
+<%@list.each do |list|%>
+   <p>
+    USER : <%=list.user%><br>
+    PWD  : <%=list.password%><br>
+   </p>
+<% end %>

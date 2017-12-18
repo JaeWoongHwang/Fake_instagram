@@ -1,0 +1,8 @@
+<h2>Board Page</h2>
+<a href="/posts/new">Write new content</a>
+<%@posts.each do |post|%>
+  <p>
+    Title : <%=post.title%><br>
+    Content : <%=post.content%><br>
+   </p>
+<%end%>
